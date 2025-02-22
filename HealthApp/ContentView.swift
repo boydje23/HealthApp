@@ -4,19 +4,28 @@
 //
 //  Created by Jason Boyd on 2/22/25.
 //
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-            Text("Hello, world!")
+        TabView {
+            MealPlanView()
+                .tabItem {
+                    Label("Meal Plan", systemImage: "leaf.arrow.circlepath")
+                }
+            FitnessRegimenView()
+                .tabItem {
+                    Label("Fitness Regimen", systemImage: "figure.walk")
+                }
+            CalorieTrackerView()
+                .tabItem {
+                    Label("Calorie Tracker", systemImage: "thermometer")
+                }
+            WorkoutCalendarView()
+                .tabItem {
+                    Label("Workout Calendar", systemImage: "calendar")
+                }
         }
-        .padding()
     }
 }
 
