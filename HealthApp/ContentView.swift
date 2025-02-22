@@ -8,7 +8,13 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
+        
+        
         TabView {
+            IntroView()
+                .tabItem{
+                    Label("FitTrack", systemImage: "leaf.arrow.circlepath")
+                }
             MealPlanView()
                 .tabItem {
                     Label("Meal Plan", systemImage: "leaf.arrow.circlepath")
