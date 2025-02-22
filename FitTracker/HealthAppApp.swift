@@ -25,10 +25,7 @@ struct HealthAppApp: App {
                     .tabItem {
                         Label("Calorie Tracker", systemImage: "thermometer")
                     }
-                WorkoutCalendarView()
-                    .tabItem {
-                        Label("Workout Calendar", systemImage: "calendar")
-                    }
+            
             }
         }
     }

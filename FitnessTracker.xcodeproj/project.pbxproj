@@ -30,9 +30,9 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		967630972D6A2E30003DE2C7 /* HealthApp */ = {
+		967630972D6A2E30003DE2C7 /* FitTracker */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = HealthApp;
+			path = FitTracker;
 			sourceTree = "<group>";
 		};
 		967630A82D6A2E32003DE2C7 /* HealthAppTests */ = {
@@ -75,7 +75,7 @@
 		9676308C2D6A2E30003DE2C7 = {
 			isa = PBXGroup;
 			children = (
-				967630972D6A2E30003DE2C7 /* HealthApp */,
+				967630972D6A2E30003DE2C7 /* FitTracker */,
 				967630A82D6A2E32003DE2C7 /* HealthAppTests */,
 				967630B22D6A2E32003DE2C7 /* HealthAppUITests */,
 				967630962D6A2E30003DE2C7 /* Products */,
@@ -108,7 +108,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				967630972D6A2E30003DE2C7 /* HealthApp */,
+				967630972D6A2E30003DE2C7 /* FitTracker */,
 			);
 			name = HealthApp;
 			packageProductDependencies = (
@@ -186,7 +186,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 967630902D6A2E30003DE2C7 /* Build configuration list for PBXProject "HealthApp" */;
+			buildConfigurationList = 967630902D6A2E30003DE2C7 /* Build configuration list for PBXProject "FitnessTracker" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -395,7 +395,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 75T57AA8P2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -424,7 +424,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"HealthApp/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "";
 				DEVELOPMENT_TEAM = 75T57AA8P2;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -521,7 +521,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		967630902D6A2E30003DE2C7 /* Build configuration list for PBXProject "HealthApp" */ = {
+		967630902D6A2E30003DE2C7 /* Build configuration list for PBXProject "FitnessTracker" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				967630B72D6A2E32003DE2C7 /* Debug */,

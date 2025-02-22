@@ -34,6 +34,13 @@ struct CalorieTrackerView: View {
         }.values.reduce(0, +)
     }
 
+    // Reset all calories data (daily and weekly)
+    private func resetCalories() {
+        dailyCalories = [:] // Clear all daily calories
+        totalCaloriesForWeek = 0 // Reset the weekly total
+        UserDefaults.standard.removeObject(forKey: calorieKey) // Remove saved data from UserDefaults
+    }
+
     var body: some View {
         NavigationView {
             VStack {
@@ -75,6 +82,19 @@ struct CalorieTrackerView: View {
                 Text("Total Calories for the Week: \(totalCaloriesForWeek)")
                     .padding()
 
+                // Reset Button
+                Button(action: {
+                    resetCalories() // Reset all calories
+                }) {
+                    Text("Reset Calories")
+                        .padding(10)
+                        .background(Color.red)
+                        .foregroundColor(.white)
+                        .cornerRadius(5)
+                        .font(.subheadline)
+                }
+                .padding()
+
                 Spacer()
             }
             .navigationTitle("Calorie Tracker")
@@ -106,4 +126,3 @@ struct CalorieTrackerView_Previews: PreviewProvider {
         CalorieTrackerView()
     }
 }
-
